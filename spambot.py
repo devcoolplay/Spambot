@@ -10,7 +10,7 @@ def setPressed():
     global pressed
     pressed = not pressed
 
-# define hotkey
+# define hotkey (alt + a)
 keyboard.add_hotkey("alt + a", setPressed)
 
 def main():
